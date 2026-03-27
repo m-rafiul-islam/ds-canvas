@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2">
+  <assessment ident="seaborn_qti_bank" title="Seaborn Question Bank">
+    <section ident="root_section" title="Seaborn Questions">
+
+      <item ident="q1" title="What is Seaborn primarily built on?">
+        <presentation>
+          <material>
+            <mattext texttype="text/plain">What is Seaborn primarily built on?</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>Matplotlib</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>NumPy</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>Pandas only</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>Scikit-learn</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q2" title="Seaborn is designed mainly for statistical data visualization.">
+        <presentation>
+          <material><mattext texttype="text/plain">Seaborn is designed mainly for statistical data visualization.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q3" title="Default Seaborn theme">
+        <presentation>
+          <material><mattext texttype="text/plain">What is the default Seaborn style usually set to?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>darkgrid</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>white</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>ticks</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>dark</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q4" title="Heatmap use case">
+        <presentation>
+          <material><mattext texttype="text/plain">Which Seaborn plot is commonly used to visualize a correlation matrix?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>jointplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>catplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>lmplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q5" title="Pairplot displays pairwise relationships">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: pairplot displays pairwise relationships between variables.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q6" title="Best plot for categorical count">
+        <presentation>
+          <material><mattext texttype="text/plain">Which Seaborn plot is best for showing counts of categorical values?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>countplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>regplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>lineplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q7" title="Fill in the blank: sns import">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: Seaborn is commonly imported as ______.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><or>
+              <varequal respident="response1">sns</varequal>
+              <varequal respident="response1">SNS</varequal>
+            </or></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q8" title="Scatterplot relationship">
+        <presentation>
+          <material><mattext texttype="text/plain">A scatterplot is useful for examining the relationship between two numeric variables.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q9" title="Distribution plot">
+        <presentation>
+          <material><mattext texttype="text/plain">Which plot is commonly used to show the distribution of a single variable?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>histplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>catplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>lmplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>barplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q10" title="FacetGrid purpose">
+        <presentation>
+          <material><mattext texttype="text/plain">FacetGrid is used to create multiple subplots based on categorical values.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q11" title="Relplot family">
+        <presentation>
+          <material><mattext texttype="text/plain">Which function is a figure-level interface for relational plots?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>relplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>boxplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>pairplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q12" title="Boxplot summary">
+        <presentation>
+          <material><mattext texttype="text/plain">A boxplot summarizes a distribution using quartiles and outliers.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q13" title="Categorical comparison plot">
+        <presentation>
+          <material><mattext texttype="text/plain">Which Seaborn plot is commonly used to compare distributions across categories?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>boxplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>lineplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>kdeplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q14" title="Fill in the blank: color parameter">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The parameter used to specify a single color in many Seaborn plots is ______.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><or>
+              <varequal respident="response1">color</varequal>
+              <varequal respident="response1">Color</varequal>
+            </or></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q15" title="lmplot includes regression line">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: lmplot can display a regression line with scatter points.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q16" title="Setting theme">
+        <presentation>
+          <material><mattext texttype="text/plain">Which function is used to set Seaborn aesthetic themes?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>set_theme</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>load_dataset</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>pairplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>despine</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q17" title="KDE plot">
+        <presentation>
+          <material><mattext texttype="text/plain">A KDE plot estimates the probability density of a variable.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q18" title="jointplot purpose">
+        <presentation>
+          <material><mattext texttype="text/plain">Which Seaborn function is used to visualize the relationship between two variables along with their distributions?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>jointplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>barplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>countplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>heatmap</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q19" title="fill blank: palette">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ parameter is commonly used to set a color palette in Seaborn.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">palette</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q20" title="Barplot aggregation">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: barplot typically shows an aggregate statistic such as the mean for each category.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q21" title="Regression plotting function">
+        <presentation>
+          <material><mattext texttype="text/plain">Which function is a low-level regression plotting function in Seaborn?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>regplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>catplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>histplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>clustermap</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q22" title="Clustermap purpose">
+        <presentation>
+          <material><mattext texttype="text/plain">Clustermap is used for hierarchical clustering visualizations.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q23" title="Categorical plot family">
+        <presentation>
+          <material><mattext texttype="text/plain">Which function is a figure-level categorical plotting interface in Seaborn?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>catplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>lmplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>relplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>jointplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q24" title="Fill blank: data argument">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ argument in many Seaborn functions specifies the dataset.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">data</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q25" title="Swarmplot shows all points">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: swarmplot displays all data points while avoiding overlap.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q26" title="Violinplot purpose">
+        <presentation>
+          <material><mattext texttype="text/plain">Which plot shows a distribution and its density shape for a category?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>violinplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>scatterplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>lineplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q27" title="fill blank: hue">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ parameter is used to map a variable to color categories.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">hue</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q28" title="A heatmap uses color intensity">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: A heatmap uses color intensity to represent values in a matrix or table.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q29" title="Scatterplot function">
+        <presentation>
+          <material><mattext texttype="text/plain">Which function is commonly used for a scatter plot in Seaborn?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>scatterplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>barplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>boxplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>countplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q30" title="fill blank: set_style">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The function ______ is used to set the style of a Seaborn plot.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">set_style</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q31" title="Lineplot for trends">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: lineplot is often used to visualize trends over time.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q32" title="Pairplot purpose">
+        <presentation>
+          <material><mattext texttype="text/plain">Which function creates pairwise plots for all numeric variables in a dataset?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>pairplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>countplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>boxplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q33" title="fill blank: axes">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: A plot usually contains two ______ that define the x- and y-directions.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">axes</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q34" title="despine removes spines">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: despine can remove the top and right spines from a plot.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q35" title="catplot is versatile">
+        <presentation>
+          <material><mattext texttype="text/plain">catplot can combine different categorical plot types in a figure-level interface.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q36" title="fill blank: x parameter">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ parameter is typically used to specify the variable on the x-axis.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">x</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q37" title="fill blank: y parameter">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ parameter is typically used to specify the variable on the y-axis.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">y</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q38" title="multiple choice: mean line">
+        <presentation>
+          <material><mattext texttype="text/plain">Which plot often displays a central tendency line for categories?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>barplot</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>scatterplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>pairplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q39" title="fill blank: size">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ parameter can be used to change the size of points in some Seaborn plots.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">size</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q40" title="True false: countplot for numeric data">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: countplot is mainly used for numeric distributions.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">False</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q41" title="matching: plot to use">
+        <presentation>
+          <material><mattext texttype="text/plain">Match the Seaborn plot to its best use.</mattext></material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="A"><material><mattext>heatmap</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>countplot</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>regplot</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>violinplot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><and>
+              <varequal respident="response1">A</varequal>
+              <varequal respident="response1">B</varequal>
+              <varequal respident="response1">C</varequal>
+              <varequal respident="response1">D</varequal>
+            </and></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q42" title="advanced: pairplot default">
+        <presentation>
+          <material><mattext texttype="text/plain">What type of variables does pairplot typically include by default?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>Numeric variables</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>Only text columns</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>Only categorical variables</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>Only dates</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q43" title="fill blank: alpha">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ parameter can control transparency in many plots.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">alpha</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q44" title="True false: clusterplot">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: clustermap can reorder rows and columns based on similarity.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q45" title="basic: axes labels">
+        <presentation>
+          <material><mattext texttype="text/plain">Which parameters usually assign axis labels or data variables in Seaborn?</mattext></material>
+          <response_lid ident="response1" rcardinality="Multiple">
+            <render_choice>
+              <response_label ident="A"><material><mattext>x</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>y</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>data</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>palette</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><and>
+              <varequal respident="response1">A</varequal>
+              <varequal respident="response1">B</varequal>
+              <varequal respident="response1">C</varequal>
+              <varequal respident="response1">D</varequal>
+            </and></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q46" title="fill blank: heatmap">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: A ______ is often used to show values in a matrix with colors.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">heatmap</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q47" title="True false: seaborn and pandas">
+        <presentation>
+          <material><mattext texttype="text/plain">True or False: Seaborn integrates well with Pandas DataFrames.</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="True"><material><mattext>True</mattext></material></response_label>
+              <response_label ident="False"><material><mattext>False</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">True</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q48" title="fill blank: legend">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: The ______ helps explain the meaning of colors or markers in a plot.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">legend</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q49" title="advanced: style and context">
+        <presentation>
+          <material><mattext texttype="text/plain">Which Seaborn feature is used to control overall look and context, such as font scaling?</mattext></material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="A"><material><mattext>set_context</mattext></material></response_label>
+              <response_label ident="B"><material><mattext>merge</mattext></material></response_label>
+              <response_label ident="C"><material><mattext>fit</mattext></material></response_label>
+              <response_label ident="D"><material><mattext>pivot</mattext></material></response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">A</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <item ident="q50" title="fill blank: grid">
+        <presentation>
+          <material><mattext texttype="text/plain">Fill in the blank: Seaborn uses a ______-based design to create multi-plot layouts.</mattext></material>
+          <response_str ident="response1" rcardinality="Single">
+            <render_fib fibtype="String" prompt="Box" maxlength="20"/>
+          </response_str>
+        </presentation>
+        <resprocessing>
+          <outcomes><decvar varname="SCORE" vartype="Decimal" defaultval="0"/></outcomes>
+          <respcondition>
+            <conditionvar><varequal respident="response1">grid</varequal></conditionvar>
+            <setvar varname="SCORE" action="Set">1</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+    </section>
+  </assessment>
+</questestinterop>
