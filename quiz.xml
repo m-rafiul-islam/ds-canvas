@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+<assessment title="Numba Quiz">
+<section>
+
+    <item title="Question 1">
+        <presentation>
+            <material>
+                <mattext>What is Numba?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>A Python compiler</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>A database</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>A plotting library</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>A web framework</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 2">
+        <presentation>
+            <material>
+                <mattext>What does @jit do?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Compiles a function</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Deletes a function</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Plots graphs</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Stores data</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 3">
+        <presentation>
+            <material>
+                <mattext>What does @njit mean?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>No Python mode</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>New jit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Numba join</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>nan</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 4">
+        <presentation>
+            <material>
+                <mattext>Which library does Numba accelerate?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>NumPy</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Pandas</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Matplotlib</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Seaborn</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 5">
+        <presentation>
+            <material>
+                <mattext>Which function benefits most from Numba?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Loops</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Print statements</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Comments</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Strings</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 6">
+        <presentation>
+            <material>
+                <mattext>What is required for best performance?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Static typing</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Dynamic typing</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>String inputs</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>nan</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 7">
+        <presentation>
+            <material>
+                <mattext>Which decorator enables parallel execution?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>@jit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>@njit(parallel=True)</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>@vectorize</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>@cuda</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">B</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 8">
+        <presentation>
+            <material>
+                <mattext>Numba works best with?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Numerical data</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Images</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Text</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Audio</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 9">
+        <presentation>
+            <material>
+                <mattext>Which mode is fastest?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>nopython mode</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>object mode</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>debug mode</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>python mode</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 10">
+        <presentation>
+            <material>
+                <mattext>Does Numba work with pure Python lists?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Yes (slow)</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>No</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Only sometimes</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Always fastest</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 11">
+        <presentation>
+            <material>
+                <mattext>Which hardware can Numba target?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>CPU and GPU</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Only CPU</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Only GPU</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>nan</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 12">
+        <presentation>
+            <material>
+                <mattext>What does @vectorize do?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Creates ufuncs</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Deletes arrays</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Prints output</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>nan</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 13">
+        <presentation>
+            <material>
+                <mattext>Which decorator is used for GPU?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>@cuda.jit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>@jit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>@njit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>@parallel</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 14">
+        <presentation>
+            <material>
+                <mattext>What happens if Numba cannot compile?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Falls back to Python</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Crashes</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Deletes code</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>nan</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 15">
+        <presentation>
+            <material>
+                <mattext>Numba is best for?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Heavy loops</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>UI design</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Web apps</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Databases</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 16">
+        <presentation>
+            <material>
+                <mattext>Which data type is preferred?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>NumPy arrays</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Lists</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Strings</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Dictionaries</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 17">
+        <presentation>
+            <material>
+                <mattext>Does Numba support recursion?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Limited support</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>No</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>Always</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Only GPU</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 18">
+        <presentation>
+            <material>
+                <mattext>What is compilation type?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>Just-in-time</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>Ahead-of-time</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>nan</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>Both</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 19">
+        <presentation>
+            <material>
+                <mattext>Which keyword forces nopython mode?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>@njit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>@jit</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>@force</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>@compile</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+    <item title="Question 20">
+        <presentation>
+            <material>
+                <mattext>Which package is required?</mattext>
+            </material>
+            <response_lid ident="response1">
+                <render_choice>
+    
+        <response_label ident="A">
+            <material>
+                <mattext>numba</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="B">
+            <material>
+                <mattext>numpy</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="C">
+            <material>
+                <mattext>pandas</mattext>
+            </material>
+        </response_label>
+        
+        <response_label ident="D">
+            <material>
+                <mattext>scipy</mattext>
+            </material>
+        </response_label>
+        
+                </render_choice>
+            </response_lid>
+        </presentation>
+
+        <resprocessing>
+            <respcondition continue="No">
+                <conditionvar>
+                    <varequal respident="response1">A</varequal>
+                </conditionvar>
+                <setvar action="Set" varname="SCORE">100</setvar>
+            </respcondition>
+        </resprocessing>
+    </item>
+    
+</section>
+</assessment>
+</questestinterop>
