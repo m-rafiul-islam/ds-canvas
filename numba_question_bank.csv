@@ -1,0 +1,21 @@
+Question,Option A,Option B,Option C,Option D,Correct Answer,Explanation
+What is Numba?,A Python compiler,A database,A plotting library,A web framework,A,Numba compiles Python to machine code
+What does @jit do?,Compiles a function,Deletes a function,Plots graphs,Stores data,A,@jit compiles Python functions for speed
+What does @njit mean?,No Python mode,New jit,Numba join,None,A,@njit disables Python object mode
+Which library does Numba accelerate?,NumPy,Pandas,Matplotlib,Seaborn,A,Numba works best with NumPy arrays
+Which function benefits most from Numba?,Loops,Print statements,Comments,Strings,A,Numba speeds up loops significantly
+What is required for best performance?,Static typing,Dynamic typing,String inputs,None,A,Numba prefers numeric/static types
+Which decorator enables parallel execution?,@jit,@njit(parallel=True),@vectorize,@cuda,B,Parallel=True enables multi-threading
+Numba works best with?,Numerical data,Images,Text,Audio,A,Numba is optimized for numerical computations
+Which mode is fastest?,nopython mode,object mode,debug mode,python mode,A,Nopython mode removes Python overhead
+Does Numba work with pure Python lists?,Yes (slow),No,Only sometimes,Always fastest,A,Lists work but slower than arrays
+Which hardware can Numba target?,CPU and GPU,Only CPU,Only GPU,None,A,Numba supports both CPU and CUDA GPUs
+What does @vectorize do?,Creates ufuncs,Deletes arrays,Prints output,None,A,It vectorizes functions like NumPy ufuncs
+Which decorator is used for GPU?,@cuda.jit,@jit,@njit,@parallel,A,CUDA decorator enables GPU programming
+What happens if Numba cannot compile?,Falls back to Python,Crashes,Deletes code,None,A,Numba uses object mode fallback
+Numba is best for?,Heavy loops,UI design,Web apps,Databases,A,Loop-heavy tasks benefit most
+Which data type is preferred?,NumPy arrays,Lists,Strings,Dictionaries,A,NumPy arrays are optimized
+Does Numba support recursion?,Limited support,No,Always,Only GPU,A,Recursion support is limited
+What is compilation type?,Just-in-time,Ahead-of-time,None,Both,A,Numba uses JIT compilation
+Which keyword forces nopython mode?,@njit,@jit,@force,@compile,A,@njit enforces nopython mode
+Which package is required?,numba,numpy,pandas,scipy,A,Numba must be installed
